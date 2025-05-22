@@ -37,7 +37,12 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I'm a full-stack developer with 4 years of experience building scalable web applications, mostly with Django, React, and PostgreSQL. I’ve led projects from scratch, worked in fast-paced startup teams, and recently led a small team fine-tuning custom LLMs using RLHF. I enjoy solving real-world problems with clean, reliable code and collaborating with people who care about quality and impact. Always curious, always learning.
+        I'm a full-stack developer with 4 years of experience building scalable, user-focused web applications. My core stack is Python(Django, Flask, FastAPI), JavaScript(NextJS, NodeJS), MongoDB, and PostgreSQL, but I'm comfortable moving across the stack and picking up new tools when needed. I've led projects end-to-end from architecture and infrastructure to frontend polish and backend performance and I thrive in fast-moving environments where ownership matters.
+        <br/>
+        Lately, I’ve been working on AI-driven systems, including leading a small team to fine-tune custom LLMs using reinforcement learning from human feedback (RLHF). I've also integrated tools like Pinecone, LangChain, and OpenAI APIs to build RAG systems and conversational interfaces across platforms like WhatsApp and Telegram.
+        <br/>
+        Outside of AI, I’ve built reliable APIs, implemented user management flows, handling payments with Stripe & PayPal, handled real-time features with WebSockets, and worked on multi-tenant platforms. I care about writing clean, maintainable code, and I enjoy collaborating with designers, PMs, and other engineers to ship products that actually solve problems.
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
