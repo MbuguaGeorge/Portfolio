@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I'm a full-stack developer with 4 years of experience building scalable web applications, mostly with Django, React, and PostgreSQL. I’ve led projects from scratch, worked in fast-paced startup teams, and recently led a small team fine-tuning custom LLMs using RLHF. I enjoy solving real-world problems with clean, reliable code and collaborating with people who care about quality and impact. Always curious, always learning.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
