@@ -47,22 +47,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Software Developer<br className="sm:block hidden" />
-              <span className="text-[20px] sm:text-[28px] block mt-2 font-normal">
-                I help businesses grow and automate with <span className="font-semibold">WhatsApp Business</span> solutions, digital transformation, and custom software.<br />
-                <span className="text-[17px] sm:text-[22px] block mt-2 font-light text-battleGray">
-                  • WhatsApp Business API Integration<br />
-                  • Automation & Chatbots<br />
-                  • Customer Engagement Tools<br />
-                  • Digital Marketing Solutions
-                </span>
-              </span>
             </p>
-            <a href="#contact">
-              <button
-                className="mt-8 px-8 py-4 bg-french text-timberWolf rounded-lg shadow-lg font-bold text-lg hover:bg-battleGray hover:text-eerieBlack transition duration-200">
-                Request My Services
-              </button>
-            </a>
           </div>
           <div
             className="w-screen flex flex-col items-start 

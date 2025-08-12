@@ -117,7 +117,7 @@ const experiences = [
     company_name: 'Turing',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Oct 2024 - May 2025',
+    date: 'Oct 2024 - Aug 2025',
   },
   {
     title: 'Software Developer',
@@ -167,9 +167,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Resume Tailor',
+    name: 'Wozza',
     description:
-      'Tailor your resumes based on job descriptions and generate cover letters.',
+      'Developed and deployed a multi-service chatbot building platform featuring a core backend service, a real-time WebSocket service, and Redis for state management. Implemented Retrieval-Augmented Generation (RAG) to enhance bot responses with external data sources.',
     tags: [
       {
         name: 'react',
@@ -185,16 +185,37 @@ const projects = [
       },
     ],
     image: leaderboard,
+    demo: 'https://wozza.io',
+  },
+  {
+    id: 'project-3',
+    name: 'Resume Tailor',
+    description: 'Tailor your resumes based on job descriptions and generate cover letters.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: leaderboard,
     repo: 'https://github.com/MbuguaGeorge/resume-tailor',
     demo: 'https://resume-tailor.onrender.com/',
   },
   {
-    id: 'project-3',
+    id: 'project-4',
     name: 'Doc Chat',
-    description: 'An innovative application that brings dynamic conversations to your PDF files.',
+    description: `An innovative application that brings dynamic conversations to your PDF files.`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'python',
         color: 'blue-text-gradient',
       },
       {
@@ -207,30 +228,8 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://doc-chat-eurh.onrender.com/',
-    demo: 'https://github.com/MbuguaGeorge/doc-chat',
-  },
-  {
-    id: 'project-4',
-    name: 'Chatty',
-    description: `A real-time chat web application using React.js for the frontend, Node.js for the backend, and Socket.IO for seamless, bi-directional communication. Implemented user authentication and message persistence.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/MbuguaGeorge/chatapp',
-    demo: 'https://george-chatapp.netlify.app/',
+    repo: 'https://github.com/MbuguaGeorge/resume-tailor',
+    demo: 'https://resume-tailor.onrender.com/',
   },
   // {
   //   id: 'project-5',
