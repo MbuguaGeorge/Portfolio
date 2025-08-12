@@ -184,7 +184,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: movie,
     demo: 'https://wozza.io',
   },
   {
